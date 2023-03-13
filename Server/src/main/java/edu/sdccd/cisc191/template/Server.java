@@ -41,6 +41,8 @@ public class Server {
     }
 
     public static void main(String[] args) {
+        StudentListGUI studentListGUI = new StudentListGUI();
+        studentListGUI.main(args);
         Server server = new Server();
         try {
             server.start(4444);

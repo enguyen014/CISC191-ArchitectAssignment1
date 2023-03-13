@@ -38,6 +38,22 @@
             <version>${jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>edu.sdccd.cisc191.template</groupId>
+            <artifactId>Server</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>control</groupId>
+            <artifactId>control</artifactId>
+            <version>0.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.diirt.javafx</groupId>
+            <artifactId>javafx</artifactId>
+            <version>3.1.7</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -130,6 +146,13 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars</name>
+            <url>https://repo.clojars.org/</url>
+        </repository>
+    </repositories>
 
     <!-- Distribute to internal repo -->
     <distributionManagement>
