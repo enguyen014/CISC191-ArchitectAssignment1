@@ -1,6 +1,6 @@
 package edu.sdccd.cisc191.template;
-public class normalStudent extends Students {
-    public normalStudent(String id, String lastName, String firstName, double gpa) {
+public class NormalStudent extends Students {
+    public NormalStudent(String id, String lastName, String firstName, double gpa) {
         super(Integer.parseInt(id), lastName, firstName, gpa);
     }
 
