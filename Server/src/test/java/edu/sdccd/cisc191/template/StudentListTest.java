@@ -15,7 +15,7 @@ public class StudentListTest {
     }
     @Test
     public void testAthleteStudent() {
-        athleteStudent student = new athleteStudent("456", "Smith", "Jane", "Basketball", 3.9);
+        AthleteStudent student = new AthleteStudent("456", "Smith", "Jane", "Basketball", 3.9);
         assertEquals("456", student.getId());
         assertEquals("Smith", student.getLastName());
         assertEquals("Jane", student.getFirstName());

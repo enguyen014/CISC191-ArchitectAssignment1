@@ -111,7 +111,7 @@ public class StudentListGUI extends Application {
             if (student[3].equals("none")) {
                 studentData.add(new normalStudent(student[0], student[1], student[2], Double.parseDouble(student[4])));
             } else {
-                studentData.add(new athleteStudent(student[0], student[1], student[2], student[3], Double.parseDouble(student[4])));
+                studentData.add(new AthleteStudent(student[0], student[1], student[2], student[3], Double.parseDouble(student[4])));
             }
             numStudents++;
             clearFields();

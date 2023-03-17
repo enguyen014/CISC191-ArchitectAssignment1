@@ -1,7 +1,7 @@
 package edu.sdccd.cisc191.template;
-public class athleteStudent extends Students {
+public class AthleteStudent extends Students {
     private String sport;
-    public athleteStudent(String id, String lastName, String firstName, String sport, double gpa) {
+    public AthleteStudent(String id, String lastName, String firstName, String sport, double gpa) {
         super(Integer.parseInt(id), lastName, firstName, gpa);
         this.sport = sport;
     }
